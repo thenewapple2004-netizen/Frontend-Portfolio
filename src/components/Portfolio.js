@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchPortfolio } from '../utils/api';
-import './Portfolio.css';
+import '../styles/main.css';
 
 const Portfolio = () => {
     const [portfolioItems, setPortfolioItems] = useState([]);
